@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chuang-common" />
+        <module name="chuang-manager-controller" />
+        <module name="chuang-manager-mapper" />
+        <module name="chuang-manager-pojo" />
+        <module name="chuang-manager-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chuang-common" target="1.8" />
+      <module name="chuang-manager" target="1.8" />
+      <module name="chuang-manager-controller" target="1.8" />
+      <module name="chuang-manager-mapper" target="1.8" />
+      <module name="chuang-manager-pojo" target="1.8" />
+      <module name="chuang-manager-service" target="1.8" />
+      <module name="chuang-parent" target="1.8" />
+      <module name="chuangcommon" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
